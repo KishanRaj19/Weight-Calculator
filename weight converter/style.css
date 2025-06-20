@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #d3f970, #addcf6);
+    /* Matched gradient */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    min-width: 400px;
+    text-align: left;
+    backdrop-filter: blur(10px);
+    /* gives the glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    color: #008080;
+    /* Teal */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+    background: white;
+}
+
+input[type="number"]::placeholder {
+    color: #aaa;
+}
+
+#output {
+    font-size: 15px;
+    color: #333;
+    font-style: italic;
+}
